@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Enrico\'s Express with WebHook 3' });
+  res.render('index', { title: 'Enrico\'s Express with WebHook and GitOps' });
 });
 
 module.exports = router;
